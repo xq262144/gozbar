@@ -3,6 +3,7 @@
 package zbar
 
 // #cgo LDFLAGS: -lzbar
+// #cgo linux LDFLAGS: -lrt
 // #include <zbar.h>
 import "C"
 
